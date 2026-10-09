@@ -16,8 +16,10 @@
     <!-- AI services can bind to its open-source network component. -->
     <allow-association target="com.google.android.as" allowed="com.google.android.as.oss" />
 
-    <!-- AI services open-source network component can only bind back to the core package. -->
+    <!-- Explicitly permitted associations of the AI services network component. -->
     <allow-association target="com.google.android.as.oss" allowed="com.google.android.as" />
+    <!-- The standalone Now Playing app binds to Private Compute Services. -->
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.pixel.nowplaying" />
     <!-- AI services open-source network component can bind to AI Core. -->
     <allow-association target="com.google.android.as.oss" allowed="com.google.android.aicore" />
 </config>
