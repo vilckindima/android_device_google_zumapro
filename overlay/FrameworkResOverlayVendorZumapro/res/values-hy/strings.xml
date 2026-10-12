@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_acquired_vendor"/>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_error_vendor">
+        <item>Հավաստագրի ժամկետը լրացել է</item>
+        <item>Սենսորը ժամանակավորապես անջատված է</item>
+        <item>Չափաբերման սխալ</item>
+        <item>Դեմքով ապակողպումը հասանելի չէ։ Հեռախոսը գերտաքացել է։</item>
+        <item>Դեմքով ապակողպումն անհրաժեշտ է նորից կարգավորել</item>
+        <item>Կարգավորեք լուսավորությունը և անշարժ պահեք սարքը</item>
+    </string-array>
+</resources>

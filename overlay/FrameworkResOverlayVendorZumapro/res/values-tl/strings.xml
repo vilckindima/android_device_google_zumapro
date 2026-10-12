@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_acquired_vendor"/>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_error_vendor">
+        <item>Nag-expire na ang certificate</item>
+        <item>Pansamantalang na-disable ang sensor</item>
+        <item>Error sa pag-calibrate</item>
+        <item>Hindi available ang face unlock. Masyadong mainit ang telepono.</item>
+        <item>Kailangang i-set up ulit ang face unlock</item>
+        <item>I-adjust ang liwanag at huwag gumalaw</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_acquired_vendor"/>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_error_vendor">
+        <item>Сертификатът е изтекъл</item>
+        <item>Сензорът е временно деактивиран</item>
+        <item>Грешка при калибрирането</item>
+        <item>„Отключване с лице“ не е налице. Телефонът е твърде горещ.</item>
+        <item>Трябва да настроите отново функцията „Отключване с лице“</item>
+        <item>Коригирайте осветлението и не мърдайте</item>
+    </string-array>
+</resources>

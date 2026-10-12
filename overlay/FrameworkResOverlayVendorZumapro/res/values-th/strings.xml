@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_acquired_vendor"/>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_error_vendor">
+        <item>ใบรับรองหมดอายุแล้ว</item>
+        <item>ปิดใช้เซ็นเซอร์ชั่วคราวแล้ว</item>
+        <item>ข้อผิดพลาดในการปรับตำแหน่ง</item>
+        <item>ฟีเจอร์ปลดล็อกด้วยใบหน้าไม่พร้อมใช้งาน โทรศัพท์ร้อนเกินไป</item>
+        <item>ต้องตั้งค่าฟีเจอร์ปลดล็อกด้วยใบหน้าอีกครั้ง</item>
+        <item>ปรับแสงและถือให้นิ่ง</item>
+    </string-array>
+</resources>

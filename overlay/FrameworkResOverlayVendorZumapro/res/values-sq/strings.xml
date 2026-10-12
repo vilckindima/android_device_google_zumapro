@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_acquired_vendor"/>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_error_vendor">
+        <item>Certifikata skadoi</item>
+        <item>Sensori është çaktivizuar përkohësisht</item>
+        <item>Gabim në kalibrim</item>
+        <item>Shkyçja me fytyrë nuk ofrohet. Telefoni është tepër i nxehtë.</item>
+        <item>Shkyçja me fytyrë duhet të konfigurohet përsëri</item>
+        <item>Rregullo ndriçimin dhe mbaje të palëvizur</item>
+    </string-array>
+</resources>

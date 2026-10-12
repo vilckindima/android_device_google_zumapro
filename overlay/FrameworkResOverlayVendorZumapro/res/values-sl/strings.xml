@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_acquired_vendor"/>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_error_vendor">
+        <item>Potrdilo je poteklo</item>
+        <item>Tipalo je začasno onemogočeno</item>
+        <item>Napaka pri umerjanju</item>
+        <item>Odklepanje z obrazom ni na voljo. Telefon je prevroč.</item>
+        <item>Odklepanje z obrazom je treba znova nastaviti</item>
+        <item>Prilagodite osvetlitev in držite pri miru</item>
+    </string-array>
+</resources>

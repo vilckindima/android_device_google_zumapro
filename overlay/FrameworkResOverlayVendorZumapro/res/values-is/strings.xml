@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_acquired_vendor"/>
+
+    <!-- Array containing custom error messages from vendor.  Vendor is expected to add and translate these strings -->
+    <string-array name="face_error_vendor">
+        <item>Vottorð útrunnið</item>
+        <item>Tímabundið slökkt á skynjara</item>
+        <item>Villa við kvörðun</item>
+        <item>Andlitskenni ekki í boði. Síminn er of heitur.</item>
+        <item>Setja þarf upp andlitskenni aftur</item>
+        <item>Lagaðu lýsinguna og haltu myndavélinni kyrri</item>
+    </string-array>
+</resources>
